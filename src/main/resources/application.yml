@@ -9,12 +9,12 @@ spring:
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
     password: 123456
-  jpa:
-    show-sql: true
-    database-plataform: org.hibernate.dialect.PostgreSQLDialect
-    generate-dll: false
-    hibernate:
-      dll-auto: none
+jpa:
+  show-sql: true
+  database-plataform: org.hibernate.dialect.PostgreSQLDialect
+  generate-dll: true
+  hibernate:
+  dll-auto: none
     
     
 application:  
