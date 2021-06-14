@@ -14,7 +14,7 @@ jpa:
   database-plataform: org.hibernate.dialect.PostgreSQLDialect
   generate-dll: true
   hibernate:
-  dll-auto: none
+  	dll-auto: none
     
     
 application:  
